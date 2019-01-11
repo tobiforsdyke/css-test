@@ -5,29 +5,26 @@ nav {
   /* background-color: #0b98de; */
   overflow: hidden;
 }
-
 /*we'll target a specific tab*/
 nav a {
   display: block;
   float: left;
-
   font-family: sans-serif;
   font-size: 12px;
   color: black;
   /* text-align: center; */
-
   background-color: #eaeaea;
   border-radius: 5px;
   padding: 10px 20px;
   margin: 0px 5px;
   text-decoration: none;
 }
-
 /*we're going to use a css pseudo-class to change the background color when we hover over a tab */
 nav a:hover {
   background-color: #cecece;
 }
 
+/* SECOND NAV */
 
 #navbar {
   width: 100%;
@@ -49,5 +46,30 @@ ul.navigation-style a {
   border-radius: 5px;
   padding: 10px 20px;
   margin: 0px 5px;
+  text-decoration: none;
+}
+
+/* THIRD NAV */
+
+#nav2 {
+  float: right;
+  text-align: right;
+}
+#nav2 ul {
+  list-style: none;
+  margin: 0;
+}
+#nav2 ul li {
+  float: left;
+  margin: 10px 0px 0 10px;
+  background: #eaeaea;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: sticky;
+  /* background-image: linear-gradient; */
+}
+#nav2 ul li a {
+  color: #888888;
+  font-size: 14px;
   text-decoration: none;
 }
