@@ -64,12 +64,17 @@ ul.navigation-style a {
   margin: 10px 0px 0 10px;
   background: #eaeaea;
   border-radius: 5px;
-  padding: 10px 20px;
   position: sticky;
   /* background-image: linear-gradient; */
 }
 #nav2 ul li a {
+  display: block;
+  padding: 10px 20px;
   color: #888888;
   font-size: 14px;
   text-decoration: none;
+}
+#nav2 ul li a:hover {
+  background-color: #cecece;
+  border-radius: 5px;
 }
